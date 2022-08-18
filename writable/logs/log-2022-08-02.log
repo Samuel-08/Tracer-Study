@@ -1,0 +1,194 @@
+ERROR - 2022-08-02 12:00:24 --> Error connecting to the database: Unknown database 'universitas'
+ERROR - 2022-08-02 12:20:08 --> Unknown column 'role' in 'field list'
+ERROR - 2022-08-02 12:32:01 --> Table 'universitas.tbl_users' doesn't exist
+CRITICAL - 2022-08-02 12:44:28 --> Undefined array key "created_at"
+in APPPATH\Views\admin\dashboard.php on line 262.
+ 1 APPPATH\Views\admin\dashboard.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'APPPATH\\Views\\admin\\dashboard.php', 262)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(31): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-02 12:57:42 --> Table 'universitas.Kuesioner_belajar' doesn't exist
+CRITICAL - 2022-08-02 12:57:42 --> Table 'universitas.Kuesioner_belajar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `Kuesioner_belajar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Kuesioner_belajar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Kuesioner_belajar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Kuesioner_belajar`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(76): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListBelajar()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 12:58:01 --> Undefined array key "pertanyaan"
+in APPPATH\Views\admin\kuisbelajar.php on line 216.
+ 1 APPPATH\Views\admin\kuisbelajar.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pertanyaan"', 'APPPATH\\Views\\admin\\kuisbelajar.php', 216)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuisbelajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kuisbelajar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(78): view('admin/kuisbelajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 12:58:28 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\admin\kuisbelajar.php on line 217.
+ 1 APPPATH\Views\admin\kuisbelajar.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\admin\\kuisbelajar.php', 217)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuisbelajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kuisbelajar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(78): view('admin/kuisbelajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 17:24:30 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\user\belajar.php on line 20.
+ 1 APPPATH\Views\user\belajar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\user\\belajar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(87): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 17:55:04 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\admin\kuisbelajar.php on line 217.
+ 1 APPPATH\Views\admin\kuisbelajar.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\admin\\kuisbelajar.php', 217)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuisbelajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kuisbelajar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(78): view('admin/kuisbelajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 17:56:56 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\admin\kuisbelajar.php on line 217.
+ 1 APPPATH\Views\admin\kuisbelajar.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\admin\\kuisbelajar.php', 217)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuisbelajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kuisbelajar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(78): view('admin/kuisbelajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 17:56:56 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\admin\kuisbelajar.php on line 217.
+ 1 APPPATH\Views\admin\kuisbelajar.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\admin\\kuisbelajar.php', 217)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuisbelajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kuisbelajar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(78): view('admin/kuisbelajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 17:57:51 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\admin\kuisbelajar.php on line 217.
+ 1 APPPATH\Views\admin\kuisbelajar.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\admin\\kuisbelajar.php', 217)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuisbelajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kuisbelajar', [], true)
+ 5 APPPATH\Controllers\AdminController.php(78): view('admin/kuisbelajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-02 18:51:14 --> Unknown column 'hasil4' in 'field list'
+CRITICAL - 2022-08-02 18:51:14 --> Unknown column 'hasil4' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `hasil1`, `hasil2`, `hasil3`, `hasil4`) VALUES (NULL, \'52\', \'sangat baik\', \'sangat baik\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `hasil1`, `hasil2`, `hasil3`, `hasil4`) VALUES (NULL, \'52\', \'sangat baik\', \'sangat baik\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `hasil1`, `hasil2`, `hasil3`, `hasil4`) VALUES (NULL, \'52\', \'sangat baik\', \'sangat baik\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `hasil1`, `hasil2`, `hasil3`, `hasil4`) VALUES (:id_hasil:, :id_kuis:, :hasil1:, :hasil2:, :hasil3:, :hasil4:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(107): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->pertanyaan()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 18:57:39 --> Undefined variable $tittle
+in APPPATH\Views\user\belajar.php on line 72.
+ 1 APPPATH\Views\user\belajar.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'APPPATH\\Views\\user\\belajar.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(87): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 18:58:06 --> Undefined variable $no
+in APPPATH\Views\user\belajar.php on line 115.
+ 1 APPPATH\Views\user\belajar.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'APPPATH\\Views\\user\\belajar.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(87): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 19:04:31 --> Undefined variable $isi
+in APPPATH\Views\user\belajar.php on line 116.
+ 1 APPPATH\Views\user\belajar.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\user\\belajar.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(87): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 19:05:17 --> Undefined array key "radio"
+in APPPATH\Views\user\belajar.php on line 124.
+ 1 APPPATH\Views\user\belajar.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "radio"', 'APPPATH\\Views\\user\\belajar.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(87): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 19:18:41 --> Undefined variable $t
+in APPPATH\Views\user\belajar.php on line 19.
+ 1 APPPATH\Views\user\belajar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t', 'APPPATH\\Views\\user\\belajar.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(87): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

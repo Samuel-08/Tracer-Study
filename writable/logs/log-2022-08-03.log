@@ -1,0 +1,316 @@
+CRITICAL - 2022-08-03 03:09:01 --> Cannot access offset of type string on string
+in APPPATH\Views\user\belajar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 4 APPPATH\Controllers\User.php(90): view('user/belajar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 03:11:23 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\user\belajar.php on line 18.
+ 1 APPPATH\Views\user\belajar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\user\\belajar.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(90): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 03:12:12 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\user\belajar.php on line 29.
+ 1 APPPATH\Views\user\belajar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\user\\belajar.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(90): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 03:12:16 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\user\belajar.php on line 29.
+ 1 APPPATH\Views\user\belajar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\user\\belajar.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(90): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 03:14:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\belajar.php on line 29.
+ 1 APPPATH\Views\user\belajar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\belajar.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(90): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 03:22:52 --> Undefined variable $kuis
+in APPPATH\Views\user\belajar.php on line 29.
+ 1 APPPATH\Views\user\belajar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kuis', 'APPPATH\\Views\\user\\belajar.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(90): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 03:24:49 --> Cannot access offset of type string on string
+in APPPATH\Views\user\belajar.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 4 APPPATH\Controllers\User.php(90): view('user/belajar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 03:28:53 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\User.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 03:41:27 --> Undefined array key ""
+in APPPATH\Views\user\belajar.php on line 40.
+ 1 APPPATH\Views\user\belajar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'APPPATH\\Views\\user\\belajar.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(90): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 03:41:57 --> Trying to access array offset on value of type int
+in APPPATH\Views\user\belajar.php on line 40.
+ 1 APPPATH\Views\user\belajar.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\user\\belajar.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\belajar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/belajar', [], true)
+ 5 APPPATH\Controllers\User.php(90): view('user/belajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-03 04:08:25 --> Column 'hasil3' cannot be null
+CRITICAL - 2022-08-03 04:08:25 --> Column 'hasil3' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `hasil` (`id_hasil`, `id_user`, `id_kuis`, `kategori`, `hasil1`, `hasil2`, `hasil3`, `hasil4`) VALUES (NULL, \'31\', \'52\', \'belajar\', \'sangat baik\', \'sangat baik\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hasil` (`id_hasil`, `id_user`, `id_kuis`, `kategori`, `hasil1`, `hasil2`, `hasil3`, `hasil4`) VALUES (NULL, \'31\', \'52\', \'belajar\', \'sangat baik\', \'sangat baik\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hasil` (`id_hasil`, `id_user`, `id_kuis`, `kategori`, `hasil1`, `hasil2`, `hasil3`, `hasil4`) VALUES (NULL, \'31\', \'52\', \'belajar\', \'sangat baik\', \'sangat baik\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hasil` (`id_hasil`, `id_user`, `id_kuis`, `kategori`, `hasil1`, `hasil2`, `hasil3`, `hasil4`) VALUES (:id_hasil:, :id_user:, :id_kuis:, :kategori:, :hasil1:, :hasil2:, :hasil3:, :hasil4:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(111): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->pertanyaan()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 20:53:28 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisBekerjaModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 20:54:24 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\admin\kuisbekerja.php on line 220.
+ 1 APPPATH\Views\admin\kuisbekerja.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\admin\\kuisbekerja.php', 220)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuisbekerja.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kuisbekerja', [], true)
+ 5 APPPATH\Controllers\AdminController.php(142): view('admin/kuisbekerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListBekerja()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 21:00:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\editing.php on line 80.
+ 1 APPPATH\Views\admin\editing.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\editing.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\editing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/editing', [], true)
+ 5 APPPATH\Controllers\AdminController.php(106): view('admin/editing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->edit('51')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 21:02:12 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\editing.php on line 80.
+ 1 APPPATH\Views\admin\editing.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\editing.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\editing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/editing', [], true)
+ 5 APPPATH\Controllers\AdminController.php(106): view('admin/editing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->edit('51')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 21:02:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\editing.php on line 80.
+ 1 APPPATH\Views\admin\editing.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\editing.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\editing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/editing', [], true)
+ 5 APPPATH\Controllers\AdminController.php(106): view('admin/editing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->edit('51')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-03 21:19:00 --> Unknown column 'id_kuis_belajar' in 'where clause'
+CRITICAL - 2022-08-03 21:19:00 --> Unknown column 'id_kuis_belajar' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `Kuesioner_bekerja`
+WHERE `id_kuis_belajar` = \'51\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Kuesioner_bekerja`
+WHERE `id_kuis_belajar` = \'51\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Kuesioner_bekerja`
+WHERE `id_kuis_belajar` = \'51\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Kuesioner_bekerja`
+WHERE `id_kuis_belajar` = :id_kuis_belajar:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\KuisBekerjaModel.php(26): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\AdminController.php(151): App\Models\KuisBekerjaModel->getUbah('51')
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->editBekerja('51')
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 21:19:31 --> Undefined array key "id_kuis_belajar"
+in APPPATH\Views\admin\editing.php on line 80.
+ 1 APPPATH\Views\admin\editing.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_belajar"', 'APPPATH\\Views\\admin\\editing.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\editing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/editing', [], true)
+ 5 APPPATH\Controllers\AdminController.php(153): view('admin/editing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->editBekerja('51')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 21:42:26 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:43:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:43:26 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:43:28 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:43:57 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:44:01 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:45:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:46:09 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:46:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:46:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:46:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\KuisWirausahaModel.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-03 21:46:32 --> Class "App\Models\KuisWirausahaModel" not found
+in APPPATH\Controllers\AdminController.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListWirausaha()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-03 21:46:59 --> Table 'universitas.Kuesioner_wirausaha' doesn't exist
+CRITICAL - 2022-08-03 21:46:59 --> Table 'universitas.Kuesioner_wirausaha' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `Kuesioner_wirausaha`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Kuesioner_wirausaha`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Kuesioner_wirausaha`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Kuesioner_wirausaha`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(178): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListWirausaha()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 21:47:40 --> Undefined array key "id_kuis_wirausaha"
+in APPPATH\Views\admin\kuiswirausaha.php on line 220.
+ 1 APPPATH\Views\admin\kuiswirausaha.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_wirausaha"', 'APPPATH\\Views\\admin\\kuiswirausaha.php', 220)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuiswirausaha.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kuiswirausaha', [], true)
+ 5 APPPATH\Controllers\AdminController.php(180): view('admin/kuiswirausaha', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListWirausaha()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 21:52:07 --> Invalid file: admin/editingwirausaha.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/editingwirausaha.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/editingwirausaha', [], true)
+ 3 APPPATH\Controllers\AdminController.php(191): view('admin/editingwirausaha', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->editWirausaha('51')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-03 21:53:18 --> Undefined array key "id_kuis_bekerja"
+in APPPATH\Views\admin\editingwirausaha.php on line 80.
+ 1 APPPATH\Views\admin\editingwirausaha.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_bekerja"', 'APPPATH\\Views\\admin\\editingwirausaha.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\editingwirausaha.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/editingwirausaha', [], true)
+ 5 APPPATH\Controllers\AdminController.php(191): view('admin/editingwirausaha', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->editWirausaha('51')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

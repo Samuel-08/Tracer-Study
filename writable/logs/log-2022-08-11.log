@@ -1,0 +1,710 @@
+ERROR - 2022-08-11 00:49:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-08-11 00:49:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Validation\Userrules.php(12): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\Validation\Validation.php(306): App\Validation\Userrules->validateUser('admin456', 'email,password', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin456', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\UserController.php(82): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 00:52:28 --> Column 'id_user' cannot be null
+CRITICAL - 2022-08-11 00:52:28 --> Column 'id_user' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (:id_hasil:, :id_kuis:, :id_user:, :nama:, :hasil1:, :hasil2:, :hasil3:, :hasil4:, :hasil5:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(73): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->ins_belajar()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 00:53:08 --> Column 'id_user' cannot be null
+CRITICAL - 2022-08-11 00:53:08 --> Column 'id_user' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (:id_hasil:, :id_kuis:, :id_user:, :nama:, :hasil1:, :hasil2:, :hasil3:, :hasil4:, :hasil5:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(73): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->ins_belajar()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 00:54:43 --> Column 'id_user' cannot be null
+CRITICAL - 2022-08-11 00:54:43 --> Column 'id_user' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (:id_hasil:, :id_kuis:, :id_user:, :nama:, :hasil1:, :hasil2:, :hasil3:, :hasil4:, :hasil5:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(73): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->ins_belajar()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 00:56:37 --> Column 'id_user' cannot be null
+CRITICAL - 2022-08-11 00:56:37 --> Column 'id_user' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (NULL, \'10231 10232 10236 10237 10238 \', NULL, NULL, \'1\', \'1\', \'1\', \'1\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`) VALUES (:id_hasil:, :id_kuis:, :id_user:, :nama:, :hasil1:, :hasil2:, :hasil3:, :hasil4:, :hasil5:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(73): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->ins_belajar()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:00:50 --> Undefined variable $user
+in APPPATH\Controllers\User.php on line 51.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\User.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:01:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getWhere()
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:01:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:01:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:02:21 --> Unknown column 'id,role,status' in 'where clause'
+CRITICAL - 2022-08-11 01:02:21 --> Unknown column 'id,role,status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`
+WHERE `id,role,status` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`
+WHERE `id,role,status` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`
+WHERE `id,role,status` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+WHERE `id,role,status` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\User.php(51): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:03:02 --> Call to undefined method App\Models\UserModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:03:08 --> Call to undefined method App\Models\UserModel::getRowArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('getRowArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:03:10 --> Call to undefined method App\Models\UserModel::getRowArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('getRowArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:03:17 --> Call to undefined method App\Models\UserModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:03:23 --> Call to undefined method App\Models\UserModel::getResults
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('getResults', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:03:27 --> Call to undefined method App\Models\UserModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:05:34 --> Call to undefined method stdClass::where()
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:05:50 --> Call to undefined method stdClass::where()
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:05:52 --> Call to undefined method stdClass::where()
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:06:02 --> Call to undefined method stdClass::getWhere()
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:09:12 --> Call to a member function where() on array
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:09:23 --> Call to a member function getWhere() on array
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:09:38 --> Call to a member function getWhere() on array
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:09:50 --> Call to a member function where() on array
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:10:19 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:10:31 --> Call to a member function getRow() on array
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:11:10 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, id,nama given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('id,nama')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('id,nama')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('id,nama')
+ 4 APPPATH\Controllers\User.php(51): CodeIgniter\Database\BaseResult->getResult('id,nama')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:11:18 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, id given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('id')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('id')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('id')
+ 4 APPPATH\Controllers\User.php(51): CodeIgniter\Database\BaseResult->getResult('id')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:11:25 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, id given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('id')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('id')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('id')
+ 4 APPPATH\Controllers\User.php(51): CodeIgniter\Database\BaseResult->getResult('id')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:11:39 --> Undefined constant "App\Controllers\id"
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:11:45 --> Undefined variable $id
+in APPPATH\Controllers\User.php on line 51.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\User.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:11:54 --> Too few arguments to function App\Controllers\User::input_k_belajar(), 0 passed in C:\Users\PC - USER PRIVATE\Desktop\codeigniter-4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\User.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:15:04 --> Call to undefined method App\Models\UserModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:15:11 --> Call to undefined method App\Models\UserModel::ResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('ResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:15:15 --> Call to undefined method App\Models\UserModel::resultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('resultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:16:34 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::from(), 0 passed in C:\Users\PC - USER PRIVATE\Desktop\codeigniter-4\vendor\codeigniter4\framework\system\Model.php on line 771 and at least 1 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 545.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->from()
+ 2 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('from', [])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:16:57 --> Not unique table/alias: 'tbl_users'
+CRITICAL - 2022-08-11 01:16:57 --> Not unique table/alias: 'tbl_users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`, `tbl_users`
+WHERE `nama` = \'nama\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`, `tbl_users`
+WHERE `nama` = \'nama\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`, `tbl_users`
+WHERE `nama` = \'nama\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`, `tbl_users`
+WHERE `nama` = :nama:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:17:09 --> Column 'nama' in where clause is ambiguous
+CRITICAL - 2022-08-11 01:17:09 --> Column 'nama' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `nama` = \'nama\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `nama` = \'nama\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `nama` = \'nama\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `nama` = :nama:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:17:26 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-08-11 01:17:26 --> Column 'id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:17:37 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-08-11 01:17:37 --> Column 'id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:17:39 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-08-11 01:17:39 --> Column 'id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:17:40 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-08-11 01:17:40 --> Column 'id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = \'id\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`, `tbl_users` as `tbe`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:21:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getWhere()
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:22:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getWhere()
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:22:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getWhere()
+in APPPATH\Controllers\User.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:24:52 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, 0 given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('0')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('0')
+ 3 SYSTEMPATH\Database\BaseResult.php(286): CodeIgniter\Database\BaseResult->getCustomResultObject('0')
+ 4 SYSTEMPATH\Database\BaseResult.php(273): CodeIgniter\Database\BaseResult->getCustomRowObject(4, '0')
+ 5 APPPATH\Controllers\User.php(51): CodeIgniter\Database\BaseResult->getRow(4, '0')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:24:56 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, 0 given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('0')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('0')
+ 3 SYSTEMPATH\Database\BaseResult.php(286): CodeIgniter\Database\BaseResult->getCustomResultObject('0')
+ 4 SYSTEMPATH\Database\BaseResult.php(273): CodeIgniter\Database\BaseResult->getCustomRowObject(4, '0')
+ 5 APPPATH\Controllers\User.php(51): CodeIgniter\Database\BaseResult->getRow(4, '0')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:38:18 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-08-11 01:38:18 --> Unknown column 'user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = user', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = user')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = user')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = user', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:38:50 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-08-11 01:38:50 --> Unknown column 'user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = user', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = user')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = user')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = user', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:39:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> user' at line 3
+CRITICAL - 2022-08-11 01:39:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> user' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = > user', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = > user')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = > user')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` = > user', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:39:12 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2022-08-11 01:39:12 --> Unknown column 'user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` >= user', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` >= user')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` >= user')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `role` >= user', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-11 01:39:43 --> Unknown column 'Belajar' in 'where clause'
+CRITICAL - 2022-08-11 01:39:43 --> Unknown column 'Belajar' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `status` >= Belajar', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `status` >= Belajar')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `status` >= Belajar')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nama`, `role`, `status`
+FROM `tbl_users`
+WHERE `status` >= Belajar', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(51): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:59:15 --> CodeIgniter\Database\BaseBuilder::whereIn(): Argument #3 ($escape) must be of type ?bool, array given, called in C:\Users\PC - USER PRIVATE\Desktop\codeigniter-4\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 787.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->whereIn('role,kategori', [...], [...])
+ 2 APPPATH\Controllers\User.php(53): CodeIgniter\Model->__call('whereIn', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:59:30 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 907.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(789): CodeIgniter\Database\BaseBuilder->_whereIn('role,kategori', true, false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->whereIn('role,kategori', true)
+ 3 APPPATH\Controllers\User.php(53): CodeIgniter\Model->__call('whereIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:59:44 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 907.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(789): CodeIgniter\Database\BaseBuilder->_whereIn('role', 'kategori', false, 'AND ', true)
+ 2 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->whereIn('role', 'kategori', true)
+ 3 APPPATH\Controllers\User.php(53): CodeIgniter\Model->__call('whereIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 01:59:47 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 907.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(789): CodeIgniter\Database\BaseBuilder->_whereIn('role', 'kategori', false, 'AND ', true)
+ 2 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->whereIn('role', 'kategori', true)
+ 3 APPPATH\Controllers\User.php(53): CodeIgniter\Model->__call('whereIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 02:00:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+in APPPATH\Controllers\User.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 02:00:27 --> You cannot use `getCompiledSelect()` in `App\Models\UserModel`. This is a method of the `Query Builder` class.
+in SYSTEMPATH\Model.php on line 789.
+ 1 SYSTEMPATH\Model.php(789): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable('App\\Models\\UserModel', 'getCompiledSelect()')
+ 2 SYSTEMPATH\Model.php(769): CodeIgniter\Model->checkBuilderMethod('getCompiledSelect')
+ 3 APPPATH\Controllers\User.php(53): CodeIgniter\Model->__call('getCompiledSelect', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->input_k_belajar()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 02:11:39 --> Undefined variable $data
+in APPPATH\Controllers\User.php on line 38.
+ 1 APPPATH\Controllers\User.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\User.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-11 02:11:50 --> Undefined variable $tittle
+in APPPATH\Views\user\dashboard.php on line 21.
+ 1 APPPATH\Views\user\dashboard.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'APPPATH\\Views\\user\\dashboard.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 5 APPPATH\Controllers\User.php(38): view('user/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

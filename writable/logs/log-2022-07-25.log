@@ -1,0 +1,249 @@
+ERROR - 2022-07-25 17:02:52 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-07-25 17:02:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(96): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 SYSTEMPATH\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index([...])
+ 8 SYSTEMPATH\CodeIgniter.php(889): CodeIgniter\CLI\CommandRunner->_remap('index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+10 SYSTEMPATH\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH\spark(86): CodeIgniter\CLI\Console->run()
+CRITICAL - 2022-07-25 17:20:35 --> Class "Config\Noauth" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('login', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-25 17:21:37 --> Table 'universitas.tbl_users' doesn't exist
+CRITICAL - 2022-07-25 17:21:37 --> Table 'universitas.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Validation\Userrules.php(12): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\Validation\Validation.php(306): App\Validation\Userrules->validateUser('admin456', 'email,password', [...], null)
+ 9 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin456', [...], [...])
+10 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+11 APPPATH\Controllers\UserController.php(27): CodeIgniter\Controller->validate([...], [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-25 17:23:58 --> Table 'universitas.tbl_users' doesn't exist
+CRITICAL - 2022-07-25 17:23:58 --> Table 'universitas.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Validation\Userrules.php(12): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\Validation\Validation.php(306): App\Validation\Userrules->validateUser('admin456', 'email,password', [...], null)
+ 9 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin456', [...], [...])
+10 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+11 APPPATH\Controllers\UserController.php(27): CodeIgniter\Controller->validate([...], [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-25 17:24:03 --> Table 'universitas.tbl_users' doesn't exist
+CRITICAL - 2022-07-25 17:24:03 --> Table 'universitas.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Validation\Userrules.php(12): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\Validation\Validation.php(306): App\Validation\Userrules->validateUser('admin456', 'email,password', [...], null)
+ 9 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin456', [...], [...])
+10 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+11 APPPATH\Controllers\UserController.php(27): CodeIgniter\Controller->validate([...], [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-25 17:24:18 --> Table 'universitas.tbl_users' doesn't exist
+CRITICAL - 2022-07-25 17:24:18 --> Table 'universitas.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Validation\Userrules.php(12): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\Validation\Validation.php(306): App\Validation\Userrules->validateUser('admin456', 'email,password', [...], null)
+ 9 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin456', [...], [...])
+10 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+11 APPPATH\Controllers\UserController.php(27): CodeIgniter\Controller->validate([...], [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-25 17:25:33 --> Table 'universitas.tbl_users' doesn't exist
+CRITICAL - 2022-07-25 17:25:33 --> Table 'universitas.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`
+WHERE `email` = \'admin@mail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Validation\Userrules.php(12): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\Validation\Validation.php(306): App\Validation\Userrules->validateUser('admin456', 'email,password', [...], null)
+ 9 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin456', [...], [...])
+10 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+11 APPPATH\Controllers\UserController.php(27): CodeIgniter\Controller->validate([...], [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-25 18:39:15 --> Undefined variable $base_url
+in APPPATH\Views\login.php on line 18.
+ 1 APPPATH\Views\login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\login.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\UserController.php(90): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-25 18:39:28 --> Undefined variable $base_url
+in APPPATH\Views\login.php on line 18.
+ 1 APPPATH\Views\login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\login.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\UserController.php(90): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-25 18:40:25 --> Undefined variable $base_url
+in APPPATH\Views\login.php on line 18.
+ 1 APPPATH\Views\login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\login.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\UserController.php(90): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-25 18:40:26 --> Undefined variable $base_url
+in APPPATH\Views\login.php on line 18.
+ 1 APPPATH\Views\login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\login.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\UserController.php(90): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-25 18:40:41 --> Undefined variable $base_url
+in APPPATH\Views\login.php on line 18.
+ 1 APPPATH\Views\login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\login.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\UserController.php(90): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-25 18:40:53 --> Undefined variable $base_url
+in APPPATH\Views\login.php on line 18.
+ 1 APPPATH\Views\login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\login.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\UserController.php(90): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

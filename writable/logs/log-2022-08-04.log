@@ -1,0 +1,286 @@
+CRITICAL - 2022-08-04 01:44:00 --> Call to undefined method App\Models\KuisWirausahaModel::editKuis
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\AdminController.php(237): CodeIgniter\Model->__call('editKuis', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->updatewirausaha('51')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-04 01:59:13 --> Table 'universitas.Kuesioner_lainnya' doesn't exist
+CRITICAL - 2022-08-04 01:59:13 --> Table 'universitas.Kuesioner_lainnya' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `Kuesioner_lainnya`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Kuesioner_lainnya`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Kuesioner_lainnya`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Kuesioner_lainnya`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(274): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->List()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-04 02:00:11 --> Undefined variable $up
+in APPPATH\Views\admin\kuislainnya.php on line 80.
+ 1 APPPATH\Views\admin\kuislainnya.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $up', 'APPPATH\\Views\\admin\\kuislainnya.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuislainnya.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/kuislainnya', [], true)
+ 5 APPPATH\Controllers\AdminController.php(276): view('/admin/kuislainnya', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->List()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-04 02:01:21 --> Undefined variable $up
+in APPPATH\Views\admin\kuislainnya.php on line 85.
+ 1 APPPATH\Views\admin\kuislainnya.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $up', 'APPPATH\\Views\\admin\\kuislainnya.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuislainnya.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/kuislainnya', [], true)
+ 5 APPPATH\Controllers\AdminController.php(276): view('/admin/kuislainnya', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->List()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-04 02:01:48 --> Undefined variable $up
+in APPPATH\Views\admin\kuislainnya.php on line 87.
+ 1 APPPATH\Views\admin\kuislainnya.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $up', 'APPPATH\\Views\\admin\\kuislainnya.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuislainnya.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/kuislainnya', [], true)
+ 5 APPPATH\Controllers\AdminController.php(276): view('/admin/kuislainnya', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->List()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-04 02:01:54 --> Undefined variable $up
+in APPPATH\Views\admin\kuislainnya.php on line 87.
+ 1 APPPATH\Views\admin\kuislainnya.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $up', 'APPPATH\\Views\\admin\\kuislainnya.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuislainnya.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/kuislainnya', [], true)
+ 5 APPPATH\Controllers\AdminController.php(276): view('/admin/kuislainnya', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->List()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-04 02:04:20 --> Undefined array key "id_kuis_bekerja"
+in APPPATH\Views\admin\kuislainnya.php on line 220.
+ 1 APPPATH\Views\admin\kuislainnya.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kuis_bekerja"', 'APPPATH\\Views\\admin\\kuislainnya.php', 220)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kuislainnya.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/kuislainnya', [], true)
+ 5 APPPATH\Controllers\AdminController.php(276): view('/admin/kuislainnya', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->List()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-04 02:11:55 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-04 02:11:55 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `Kuesioner_lainnya`
+WHERE `id` IN (\'51\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `Kuesioner_lainnya`
+WHERE `id` IN (\'51\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `Kuesioner_lainnya`
+WHERE `id` IN (\'51\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `Kuesioner_lainnya`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AdminController.php(307): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HapusL('51')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-04 02:55:35 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-08-04 02:55:35 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(37): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListSemua()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-04 20:34:40 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-08-04 20:34:40 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(37): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListSemua()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-04 20:35:26 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-08-04 20:35:26 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(37): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListSemua()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-04 20:41:17 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-08-04 20:41:17 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(37): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListSemua()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-04 20:41:25 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-08-04 20:41:25 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(37): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListSemua()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-04 20:41:36 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-08-04 20:41:36 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(37): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->ListSemua()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

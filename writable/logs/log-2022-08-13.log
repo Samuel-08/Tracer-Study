@@ -1,0 +1,1943 @@
+CRITICAL - 2022-08-13 00:54:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Controllers\AdminController.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 01:02:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCurrentRow()
+in APPPATH\Controllers\AdminController.php on line 128.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 01:10:00 --> Undefined variable $des
+in APPPATH\Views\admin\ending.php on line 236.
+ 1 APPPATH\Views\admin\ending.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $des', 'APPPATH\\Views\\admin\\ending.php', 236)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(135): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 01:10:38 --> Undefined variable $des
+in APPPATH\Views\admin\ending.php on line 236.
+ 1 APPPATH\Views\admin\ending.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $des', 'APPPATH\\Views\\admin\\ending.php', 236)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(135): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 01:15:17 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 195.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(135): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 01:16:58 --> Unknown column 'pertanyaaan' in 'field list'
+CRITICAL - 2022-08-13 01:16:58 --> Unknown column 'pertanyaaan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pertanyaaan`
+FROM `Kuesioner_belajar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pertanyaaan`
+FROM `Kuesioner_belajar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pertanyaaan`
+FROM `Kuesioner_belajar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `pertanyaaan`
+FROM `Kuesioner_belajar`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(132): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:37:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getAll()
+in APPPATH\Controllers\AdminController.php on line 132.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:40:23 --> Undefined array key "kuis"
+in APPPATH\Views\admin\ending.php on line 189.
+ 1 APPPATH\Views\admin\ending.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kuis"', 'APPPATH\\Views\\admin\\ending.php', 189)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(135): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:40:49 --> Undefined array key "kuis"
+in APPPATH\Views\admin\ending.php on line 189.
+ 1 APPPATH\Views\admin\ending.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kuis"', 'APPPATH\\Views\\admin\\ending.php', 189)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(135): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:40:59 --> Undefined array key "hasil1"
+in APPPATH\Views\admin\ending.php on line 189.
+ 1 APPPATH\Views\admin\ending.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hasil1"', 'APPPATH\\Views\\admin\\ending.php', 189)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(135): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:42:24 --> Undefined array key "pertanyaan"
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 APPPATH\Views\admin\ending.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pertanyaan"', 'APPPATH\\Views\\admin\\ending.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(135): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:45:58 --> Call to a member function select() on string
+in APPPATH\Controllers\AdminController.php on line 133.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:46:32 --> Call to a member function select() on null
+in APPPATH\Controllers\AdminController.php on line 133.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:46:35 --> Call to a member function select() on null
+in APPPATH\Controllers\AdminController.php on line 133.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:46:53 --> Call to a member function get() on null
+in APPPATH\Controllers\AdminController.php on line 133.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:46:59 --> Call to a member function get() on null
+in APPPATH\Controllers\AdminController.php on line 133.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:47:51 --> Call to a member function get() on null
+in APPPATH\Controllers\AdminController.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:48:14 --> Call to a member function get() on null
+in APPPATH\Controllers\AdminController.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 09:53:38 --> Unknown column 'pertanyaaan' in 'field list'
+CRITICAL - 2022-08-13 09:53:38 --> Unknown column 'pertanyaaan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pertanyaaan`
+FROM `Kuesioner_belajar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pertanyaaan`
+FROM `Kuesioner_belajar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pertanyaaan`
+FROM `Kuesioner_belajar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `pertanyaaan`
+FROM `Kuesioner_belajar`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(133): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:53:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArray()
+in APPPATH\Controllers\AdminController.php on line 133.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:54:19 --> Undefined array key "pertanyaan"
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 APPPATH\Views\admin\ending.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pertanyaan"', 'APPPATH\\Views\\admin\\ending.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:54:38 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 APPPATH\Views\admin\ending.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:54:50 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 APPPATH\Views\admin\ending.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:54:58 --> Undefined variable $pertanyaan
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 APPPATH\Views\admin\ending.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pertanyaan', 'APPPATH\\Views\\admin\\ending.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:55:03 --> Undefined variable $pertanyaan
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 APPPATH\Views\admin\ending.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pertanyaan', 'APPPATH\\Views\\admin\\ending.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:56:47 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 188.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:57:08 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 188.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:57:25 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:57:44 --> Undefined variable $pertanyaan
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 APPPATH\Views\admin\ending.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pertanyaan', 'APPPATH\\Views\\admin\\ending.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 09:59:01 --> Undefined variable $kkj
+in APPPATH\Views\admin\ending.php on line 188.
+ 1 APPPATH\Views\admin\ending.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kkj', 'APPPATH\\Views\\admin\\ending.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(137): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:05:23 --> Attempt to read property "pertanyaan" on array
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 APPPATH\Views\admin\ending.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pertanyaan" on array', 'APPPATH\\Views\\admin\\ending.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:05:36 --> Undefined array key "pertanyaan"
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 APPPATH\Views\admin\ending.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pertanyaan"', 'APPPATH\\Views\\admin\\ending.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:05:57 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 187.
+ 1 APPPATH\Views\admin\ending.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:06:59 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\ending.php on line 189.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 10:27:52 --> Not unique table/alias: 'hasil'
+CRITICAL - 2022-08-13 10:27:52 --> Not unique table/alias: 'hasil'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`
+FROM `hasil`, `hasil`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`
+FROM `hasil`, `hasil`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`
+FROM `hasil`, `hasil`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`
+FROM `hasil`, `hasil`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 10:28:03 --> Column 'hasil1' in field list is ambiguous
+CRITICAL - 2022-08-13 10:28:03 --> Column 'hasil1' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`
+FROM `hasil`, `hasil` as `hh`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`
+FROM `hasil`, `hasil` as `hh`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`
+FROM `hasil`, `hasil` as `hh`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`
+FROM `hasil`, `hasil` as `hh`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:30:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+in APPPATH\Controllers\AdminController.php on line 128.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:30:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:31:11 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:31:18 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:31:19 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:31:30 --> Undefined variable $hasil
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:31:46 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:31:47 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:31:55 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:32:08 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:32:10 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:32:11 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:32:35 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:32:45 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:32:48 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:32:54 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:33:01 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:33:09 --> Undefined variable $h
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $h', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:34:20 --> syntax error, unexpected identifier "kuis", expecting ")"
+in APPPATH\Controllers\AdminController.php on line 129.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:35:17 --> Undefined variable $h
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $h', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:37:08 --> Undefined variable $h
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $h', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:37:20 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:37:26 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:37:32 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:37:45 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:38:06 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:38:28 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:42:31 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\Users\PC - USER PRIVATE\Desktop\Dekstop\codeigniter-4\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get('hasil2')
+ 2 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:44:31 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:44:54 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:45:04 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 193.
+ 1 APPPATH\Views\admin\ending.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:47:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumsRow()
+in APPPATH\Controllers\AdminController.php on line 128.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:47:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumRow()
+in APPPATH\Controllers\AdminController.php on line 128.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:47:14 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\ending.php on line 191.
+ 1 APPPATH\Views\admin\ending.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\ending.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:47:24 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\ending.php on line 191.
+ 1 APPPATH\Views\admin\ending.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\ending.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:48:04 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\ending.php on line 191.
+ 1 APPPATH\Views\admin\ending.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\ending.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:48:21 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\ending.php on line 191.
+ 1 APPPATH\Views\admin\ending.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\ending.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 10:48:34 --> Undefined variable $h
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $h', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(133): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:01:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRows()
+in APPPATH\Controllers\AdminController.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:02:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getFieldRows()
+in APPPATH\Controllers\AdminController.php on line 129.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:02:37 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 192.
+ 1 APPPATH\Views\admin\ending.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 192)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(136): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:04:41 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 195.
+ 1 APPPATH\Views\admin\ending.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:04:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRows()
+in APPPATH\Controllers\AdminController.php on line 128.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:05:10 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\ending.php on line 195.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:05:16 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 195.
+ 1 APPPATH\Views\admin\ending.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:06:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumsRow()
+in APPPATH\Controllers\AdminController.php on line 128.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:07:00 --> Trying to access array offset on value of type int
+in APPPATH\Views\admin\ending.php on line 196.
+ 1 APPPATH\Views\admin\ending.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'APPPATH\\Views\\admin\\ending.php', 196)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:09:04 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:13:53 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\ending.php on line 191.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:14:20 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 191.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 11:16:07 --> Unknown column 'hasil' in 'field list'
+CRITICAL - 2022-08-13 11:16:07 --> Unknown column 'hasil' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil`
+FROM `hasil`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil`
+FROM `hasil`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil`
+FROM `hasil`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil`
+FROM `hasil`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 11:16:10 --> Unknown column 'hasil' in 'field list'
+CRITICAL - 2022-08-13 11:16:10 --> Unknown column 'hasil' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil`
+FROM `hasil`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil`
+FROM `hasil`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil`
+FROM `hasil`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil`
+FROM `hasil`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:17:24 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\ending.php on line 190.
+ 1 APPPATH\Views\admin\ending.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\ending.php', 190)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:17:31 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\ending.php on line 190.
+ 1 APPPATH\Views\admin\ending.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\ending.php', 190)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:17:40 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\ending.php on line 190.
+ 1 APPPATH\Views\admin\ending.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\ending.php', 190)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:17:46 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\ending.php on line 190.
+ 1 APPPATH\Views\admin\ending.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\ending.php', 190)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:17:49 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\admin\ending.php on line 190.
+ 1 APPPATH\Views\admin\ending.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\admin\\ending.php', 190)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(132): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 11:19:12 --> Unknown column 'hasil' in 'field list'
+CRITICAL - 2022-08-13 11:19:12 --> Unknown column 'hasil' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil`
+FROM `hasil`
+WHERE `hasill` = \'baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil`
+FROM `hasil`
+WHERE `hasill` = \'baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil`
+FROM `hasil`
+WHERE `hasill` = \'baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil`
+FROM `hasil`
+WHERE `hasill` = :hasill:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 11:19:25 --> Unknown column 'hasill' in 'where clause'
+CRITICAL - 2022-08-13 11:19:25 --> Unknown column 'hasill' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `hasill` = \'baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil1`
+FROM `hasil`
+WHERE `hasill` = \'baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil1`
+FROM `hasil`
+WHERE `hasill` = \'baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `hasill` = :hasill:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:44:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+in APPPATH\Controllers\AdminController.php on line 136.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:44:28 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\ending.php on line 199.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:44:46 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\ending.php on line 199.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:44:57 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:45:28 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:45:30 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:45:37 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 199.
+ 1 APPPATH\Views\admin\ending.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 199)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:46:10 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 199.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:47:31 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 199.
+ 1 APPPATH\Views\admin\ending.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 199)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:47:44 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:47:55 --> Undefined array key "pertanyaan"
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pertanyaan"', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:48:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+in APPPATH\Controllers\AdminController.php on line 136.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:48:17 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:48:35 --> Object of class mysqli could not be converted to string
+in APPPATH\Views\admin\ending.php on line 199.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:49:06 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:49:20 --> Undefined array key "pertanyaan"
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pertanyaan"', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:49:37 --> Call to a member function first() on array
+in APPPATH\Controllers\AdminController.php on line 136.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:50:11 --> Undefined array key "pertanyaan"
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pertanyaan"', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:50:19 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:51:35 --> Call to a member function findColumn() on array
+in APPPATH\Controllers\AdminController.php on line 136.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:51:55 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\AdminController.php on line 136.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:52:24 --> Object of class App\Models\KuisBelajarModel could not be converted to string
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:52:39 --> Cannot use object of type App\Models\KuisBelajarModel as array
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:53:04 --> Undefined array key "pertanyaan"
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pertanyaan"', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:53:13 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:53:21 --> Undefined variable $pertanyaan
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pertanyaan', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:53:41 --> Array to string conversion
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:53:47 --> Undefined array key "pertanyaan"
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pertanyaan"', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 11:53:58 --> Undefined variable $pertanyaan
+in APPPATH\Views\admin\ending.php on line 198.
+ 1 APPPATH\Views\admin\ending.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pertanyaan', 'APPPATH\\Views\\admin\\ending.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 12:00:26 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\admin\ending.php on line 209.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 3 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 12:00:39 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 209.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 12:00:49 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 209.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 12:00:59 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 209.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 12:01:15 --> Undefined variable $kuiss
+in APPPATH\Views\admin\ending.php on line 209.
+ 1 APPPATH\Views\admin\ending.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kuiss', 'APPPATH\\Views\\admin\\ending.php', 209)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 12:01:24 --> Undefined variable $hasill2
+in APPPATH\Views\admin\ending.php on line 212.
+ 1 APPPATH\Views\admin\ending.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasill2', 'APPPATH\\Views\\admin\\ending.php', 212)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 12:04:19 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\ending.php on line 210.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 4 APPPATH\Controllers\AdminController.php(139): view('/admin/ending', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:16:02 --> Unknown column 'hasil1,hasil2' in 'where clause'
+CRITICAL - 2022-08-13 12:16:02 --> Unknown column 'hasil1,hasil2' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,hasil2` = \'sangat baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE `hasil1,hasil2` = \'sangat baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE `hasil1,hasil2` = \'sangat baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,hasil2` = :hasil1,hasil2:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:16:18 --> Unknown column 'hasil1,hasil2,hasil3,hasil4' in 'where clause'
+CRITICAL - 2022-08-13 12:16:18 --> Unknown column 'hasil1,hasil2,hasil3,hasil4' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,hasil2,hasil3,hasil4` = \'sangat baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE `hasil1,hasil2,hasil3,hasil4` = \'sangat baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE `hasil1,hasil2,hasil3,hasil4` = \'sangat baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,hasil2,hasil3,hasil4` = :hasil1,hasil2,hasil3,hasil4:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:16:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'baik' at line 3
+CRITICAL - 2022-08-13 12:16:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'baik' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE sangat baik', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE sangat baik')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE sangat baik')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE sangat baik', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:17:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'baik' at line 3
+CRITICAL - 2022-08-13 12:17:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'baik' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil1`, `hasil2`
+FROM `hasil`
+WHERE sangat baik', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil1`, `hasil2`
+FROM `hasil`
+WHERE sangat baik')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil1`, `hasil2`
+FROM `hasil`
+WHERE sangat baik')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil1`, `hasil2`
+FROM `hasil`
+WHERE sangat baik', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:19:27 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-13 12:19:27 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:19:36 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-13 12:19:36 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = 10232', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = 10232')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = 10232')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:19:38 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-13 12:19:38 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = 10232', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = 10232')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = 10232')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:19:45 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-13 12:19:45 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = \'10232\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = \'10232\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = \'10232\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = :id :', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:19:47 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-08-13 12:19:47 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = \'10232\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = \'10232\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = \'10232\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil1`
+FROM `hasil`
+WHERE `id` = :id :', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:19:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10232' at line 3
+CRITICAL - 2022-08-13 12:19:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10232' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `hasil1`
+FROM `hasil`
+WHERE id ,10232', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hasil1`
+FROM `hasil`
+WHERE id ,10232')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hasil1`
+FROM `hasil`
+WHERE id ,10232')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `hasil1`
+FROM `hasil`
+WHERE id ,10232', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(128): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:20:15 --> Unknown column 'hasil1,' in 'where clause'
+CRITICAL - 2022-08-13 12:20:15 --> Unknown column 'hasil1,' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = :hasil1,:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(129): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:20:17 --> Unknown column 'hasil1,' in 'where clause'
+CRITICAL - 2022-08-13 12:20:17 --> Unknown column 'hasil1,' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = :hasil1,:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(129): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:20:27 --> Unknown column 'hasil1,' in 'where clause'
+CRITICAL - 2022-08-13 12:20:27 --> Unknown column 'hasil1,' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = :hasil1,:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(129): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:21:02 --> Unknown column 'hasil1,' in 'where clause'
+CRITICAL - 2022-08-13 12:21:02 --> Unknown column 'hasil1,' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = :hasil1,:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(129): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:21:03 --> Unknown column 'hasil1,' in 'where clause'
+CRITICAL - 2022-08-13 12:21:03 --> Unknown column 'hasil1,' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = \'baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE `hasil1,` = :hasil1,:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(129): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:51:00 --> Unknown column 'hasil' in 'where clause'
+CRITICAL - 2022-08-13 12:51:00 --> Unknown column 'hasil' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE `hasil` = \'sangat baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE `hasil` = \'sangat baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE `hasil` = \'sangat baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE `hasil` = :hasil:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(134): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:51:39 --> Unknown column 'hasil' in 'where clause'
+CRITICAL - 2022-08-13 12:51:39 --> Unknown column 'hasil' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE `hasil` = \'sangat baik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE `hasil` = \'sangat baik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE `hasil` = \'sangat baik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE `hasil` = :hasil:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(134): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 12:51:54 --> Unknown column 'hasil' in 'where clause'
+CRITICAL - 2022-08-13 12:51:54 --> Unknown column 'hasil' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `hasil`
+WHERE `hasil` = \'kurang\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `hasil`
+WHERE `hasil` = \'kurang\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `hasil`
+WHERE `hasil` = \'kurang\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hasil`
+WHERE `hasil` = :hasil:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(137): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 13:02:35 --> Undefined variable $h5_sangat_baik
+in APPPATH\Views\admin\ending.php on line 214.
+ 1 APPPATH\Views\admin\ending.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $h5_sangat_baik', 'APPPATH\\Views\\admin\\ending.php', 214)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(153): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 13:44:48 --> Undefined variable $h6_sangat_baik
+in APPPATH\Views\admin\ending.php on line 216.
+ 1 APPPATH\Views\admin\ending.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $h6_sangat_baik', 'APPPATH\\Views\\admin\\ending.php', 216)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(157): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 13:46:20 --> Undefined variable $h7_sangat_baik
+in APPPATH\Views\admin\ending.php on line 218.
+ 1 APPPATH\Views\admin\ending.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $h7_sangat_baik', 'APPPATH\\Views\\admin\\ending.php', 218)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ending.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/ending', [], true)
+ 5 APPPATH\Controllers\AdminController.php(161): view('/admin/ending', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AdminController->HasilKuesioner()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-13 14:14:16 --> Column 'hasil15' cannot be null
+CRITICAL - 2022-08-13 14:14:16 --> Column 'hasil15' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`, `hasil6`, `hasil7`, `hasil8`, `hasil9`, `hasil10`, `hasil11`, `hasil12`, `hasil13`, `hasil14`, `hasil15`) VALUES (NULL, \'10248\', \'39\', \'user\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`, `hasil6`, `hasil7`, `hasil8`, `hasil9`, `hasil10`, `hasil11`, `hasil12`, `hasil13`, `hasil14`, `hasil15`) VALUES (NULL, \'10248\', \'39\', \'user\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`, `hasil6`, `hasil7`, `hasil8`, `hasil9`, `hasil10`, `hasil11`, `hasil12`, `hasil13`, `hasil14`, `hasil15`) VALUES (NULL, \'10248\', \'39\', \'user\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', \'sangat baik\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hasil` (`id_hasil`, `id_kuis`, `id_user`, `nama`, `hasil1`, `hasil2`, `hasil3`, `hasil4`, `hasil5`, `hasil6`, `hasil7`, `hasil8`, `hasil9`, `hasil10`, `hasil11`, `hasil12`, `hasil13`, `hasil14`, `hasil15`) VALUES (:id_hasil:, :id_kuis:, :id_user:, :nama:, :hasil1:, :hasil2:, :hasil3:, :hasil4:, :hasil5:, :hasil6:, :hasil7:, :hasil8:, :hasil9:, :hasil10:, :hasil11:, :hasil12:, :hasil13:, :hasil14:, :hasil15:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(130): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->pertanyaan()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-13 15:18:22 --> session_start(): Failed to decode session object. Session has been destroyed
+in SYSTEMPATH\Session\Session.php on line 896.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_start(): Failed to decode session object. Session has been destroyed', 'SYSTEMPATH\\Session\\Session.php', 896)
+ 2 SYSTEMPATH\Session\Session.php(896): session_start()
+ 3 SYSTEMPATH\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+ 4 SYSTEMPATH\Config\Services.php(613): CodeIgniter\Session\Session->start()
+ 5 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 6 SYSTEMPATH\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 7 SYSTEMPATH\Config\Services.php(585): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 8 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::session()
+ 9 SYSTEMPATH\Common.php(932): CodeIgniter\Config\BaseService::__callStatic('session', [])
+10 APPPATH\Controllers\AdminController.php(17): session()
+11 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\AdminController->__construct()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

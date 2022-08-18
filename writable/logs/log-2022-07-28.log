@@ -1,0 +1,1422 @@
+CRITICAL - 2022-07-28 08:01:17 --> Undefined variable $pbel
+in APPPATH\Views\user\pertanyaan.php on line 22.
+ 1 APPPATH\Views\user\pertanyaan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pbel', 'APPPATH\\Views\\user\\pertanyaan.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(34): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:06:57 --> Undefined variable $base_url
+in APPPATH\Views\user\pertanyaan.php on line 18.
+ 1 APPPATH\Views\user\pertanyaan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\user\\pertanyaan.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(34): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:11:05 --> Invalid file: user/kBel.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/kBel.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/kBel', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('user/kBel')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:11:12 --> Invalid file: user/kBel.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/kBel.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/kBel', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('user/kBel')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:11:18 --> Invalid file: user/kBel.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/kBel.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/kBel', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('user/kBel')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:11:59 --> Invalid file: user/kBel.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/kBel.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/kBel', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('user/kBel')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:12:04 --> Invalid file: user/kBel.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/kBel.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/kBel', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('user/kBel')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:12:12 --> Invalid file: user/kBel.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/kBel.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/kBel', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('user/kBel')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:24:16 --> Call to undefined method App\Models\UserModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(60): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:24:23 --> Call to undefined method App\Models\UserModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(60): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:24:35 --> Invalid file: /user.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/user.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/user', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('/user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:25:24 --> Invalid file: /user.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/user.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/user', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('/user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:25:35 --> Invalid file: /user.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/user.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/user', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('/user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:26:01 --> Invalid file: /user.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/user.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/user', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('/user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:26:13 --> Invalid file: /user.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/user.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/user', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('/user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:26:33 --> Invalid file: /user.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/user.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/user', [], true)
+ 3 APPPATH\Controllers\User.php(63): view('/user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:42:47 --> Invalid file: /user.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/user.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/user', [], true)
+ 3 APPPATH\Controllers\User.php(62): view('/user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:53:59 --> Call to undefined method App\Models\UserModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(59): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:54:09 --> Call to undefined method App\Models\UserModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(59): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:55:17 --> Call to undefined method App\Models\UserModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(59): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 08:55:34 --> Call to undefined method App\Models\UserModel::getRowArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(59): CodeIgniter\Model->__call('getRowArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 09:00:10 --> Undefined array key "bekerja"
+in APPPATH\Controllers\User.php on line 57.
+ 1 APPPATH\Controllers\User.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bekerja"', 'APPPATH\\Controllers\\User.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 09:00:20 --> Undefined array key "bekerja"
+in APPPATH\Controllers\User.php on line 57.
+ 1 APPPATH\Controllers\User.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bekerja"', 'APPPATH\\Controllers\\User.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 09:02:29 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\Users\Dekstop\Desktop\TUGAS --- AKHIR - Copy\GitHub\codeigniter-4\app\Controllers\User.php on line 59
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\User.php(59): view('user/wirausaha', 'bekerja')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 09:02:46 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\Users\Dekstop\Desktop\TUGAS --- AKHIR - Copy\GitHub\codeigniter-4\app\Controllers\User.php on line 59
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\User.php(59): view('user/wirausaha', 'bekerja')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 09:12:49 --> Unknown column 'bekerja' in 'where clause'
+CRITICAL - 2022-07-28 09:12:49 --> Unknown column 'bekerja' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM tbl_users WHERE status = bekerja', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_users WHERE status = bekerja')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_users WHERE status = bekerja')
+ 4 SYSTEMPATH\Model.php(767): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_users WHERE status = bekerja')
+ 5 APPPATH\Controllers\User.php(56): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 09:16:31 --> Unknown column 'bekerja' in 'where clause'
+CRITICAL - 2022-07-28 09:16:31 --> Unknown column 'bekerja' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM tbl_users WHERE status = bekerja', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_users WHERE status = bekerja')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_users WHERE status = bekerja')
+ 4 APPPATH\Controllers\User.php(56): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_users WHERE status = bekerja')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 09:17:10 --> Unknown column 'bekerja' in 'where clause'
+CRITICAL - 2022-07-28 09:17:10 --> Unknown column 'bekerja' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM tbl_users WHERE status = bekerja', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_users WHERE status = bekerja')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_users WHERE status = bekerja')
+ 4 APPPATH\Controllers\User.php(56): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_users WHERE status = bekerja')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kategori()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:45:04 --> Undefined variable $isi
+in APPPATH\Views\user\pertanyaan.php on line 28.
+ 1 APPPATH\Views\user\pertanyaan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\user\\pertanyaan.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:45:45 --> Undefined variable $isi
+in APPPATH\Views\user\pertanyaan.php on line 28.
+ 1 APPPATH\Views\user\pertanyaan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\user\\pertanyaan.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:45:57 --> Undefined variable $isi
+in APPPATH\Views\user\pertanyaan.php on line 28.
+ 1 APPPATH\Views\user\pertanyaan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\user\\pertanyaan.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:46:11 --> Undefined variable $isi
+in APPPATH\Views\user\pertanyaan.php on line 28.
+ 1 APPPATH\Views\user\pertanyaan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\user\\pertanyaan.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:48:27 --> Undefined variable $isi
+in APPPATH\Views\user\pertanyaan.php on line 28.
+ 1 APPPATH\Views\user\pertanyaan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\user\\pertanyaan.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:49:52 --> Undefined variable $isi
+in APPPATH\Views\user\pertanyaan.php on line 28.
+ 1 APPPATH\Views\user\pertanyaan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\user\\pertanyaan.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:49:54 --> Undefined variable $isi
+in APPPATH\Views\user\pertanyaan.php on line 28.
+ 1 APPPATH\Views\user\pertanyaan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\user\\pertanyaan.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:50:29 --> Undefined variable $isi
+in APPPATH\Views\user\pertanyaan.php on line 28.
+ 1 APPPATH\Views\user\pertanyaan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\user\\pertanyaan.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:50:31 --> Undefined variable $isi
+in APPPATH\Views\user\pertanyaan.php on line 28.
+ 1 APPPATH\Views\user\pertanyaan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isi', 'APPPATH\\Views\\user\\pertanyaan.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:50:41 --> Undefined array key "jawaban"
+in APPPATH\Views\user\pertanyaan.php on line 28.
+ 1 APPPATH\Views\user\pertanyaan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jawaban"', 'APPPATH\\Views\\user\\pertanyaan.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:51:58 --> Undefined array key "jawaban"
+in APPPATH\Views\user\pertanyaan.php on line 31.
+ 1 APPPATH\Views\user\pertanyaan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jawaban"', 'APPPATH\\Views\\user\\pertanyaan.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(35): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->tampilPertanyaanBelajar()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:55:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pertanyaan.php on line 25.
+ 1 APPPATH\Views\user\pertanyaan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pertanyaan.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(62): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:56:28 --> Undefined variable $kBel
+in APPPATH\Views\user\pertanyaan.php on line 24.
+ 1 APPPATH\Views\user\pertanyaan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kBel', 'APPPATH\\Views\\user\\pertanyaan.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(62): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:57:48 --> Undefined variable $kBel
+in APPPATH\Views\user\pertanyaan.php on line 24.
+ 1 APPPATH\Views\user\pertanyaan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kBel', 'APPPATH\\Views\\user\\pertanyaan.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(62): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:57:49 --> Undefined variable $kBel
+in APPPATH\Views\user\pertanyaan.php on line 24.
+ 1 APPPATH\Views\user\pertanyaan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kBel', 'APPPATH\\Views\\user\\pertanyaan.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(62): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 17:59:14 --> Undefined variable $kBel
+in APPPATH\Views\user\pertanyaan.php on line 24.
+ 1 APPPATH\Views\user\pertanyaan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kBel', 'APPPATH\\Views\\user\\pertanyaan.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(62): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:00:05 --> Undefined variable $kBel
+in APPPATH\Views\user\pertanyaan.php on line 24.
+ 1 APPPATH\Views\user\pertanyaan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kBel', 'APPPATH\\Views\\user\\pertanyaan.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(62): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:01:05 --> Undefined variable $kBel
+in APPPATH\Views\user\pertanyaan.php on line 24.
+ 1 APPPATH\Views\user\pertanyaan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kBel', 'APPPATH\\Views\\user\\pertanyaan.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(62): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:01:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pertanyaan.php on line 25.
+ 1 APPPATH\Views\user\pertanyaan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pertanyaan.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(62): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:02:09 --> Undefined variable $kBel
+in APPPATH\Views\user\pertanyaan.php on line 24.
+ 1 APPPATH\Views\user\pertanyaan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kBel', 'APPPATH\\Views\\user\\pertanyaan.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(62): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:13:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pertanyaan.php on line 25.
+ 1 APPPATH\Views\user\pertanyaan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pertanyaan.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(66): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:13:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pertanyaan.php on line 25.
+ 1 APPPATH\Views\user\pertanyaan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pertanyaan.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(66): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:30:04 --> Invalid file: user/Hasil.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/Hasil.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/Hasil', [], true)
+ 3 APPPATH\Controllers\User.php(68): view('user/Hasil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:32:36 --> Undefined constant "base_url"
+in APPPATH\Views\user\dashboard.php on line 40.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 4 APPPATH\Controllers\User.php(29): view('user/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:32:48 --> Undefined variable $base_url
+in APPPATH\Views\user\dashboard.php on line 40.
+ 1 APPPATH\Views\user\dashboard.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\user\\dashboard.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 5 APPPATH\Controllers\User.php(29): view('user/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:33:36 --> Undefined variable $base_url
+in APPPATH\Views\user\dashboard.php on line 40.
+ 1 APPPATH\Views\user\dashboard.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\user\\dashboard.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 5 APPPATH\Controllers\User.php(29): view('user/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:33:38 --> Undefined variable $base_url
+in APPPATH\Views\user\dashboard.php on line 40.
+ 1 APPPATH\Views\user\dashboard.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'APPPATH\\Views\\user\\dashboard.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 5 APPPATH\Controllers\User.php(29): view('user/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:36:27 --> Invalid file: user/Hasil.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/Hasil.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/Hasil', [], true)
+ 3 APPPATH\Controllers\User.php(68): view('user/Hasil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:37:25 --> Invalid file: user/Hasil.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/Hasil.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/Hasil', [], true)
+ 3 APPPATH\Controllers\User.php(68): view('user/Hasil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:39:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pertanyaan.php on line 25.
+ 1 APPPATH\Views\user\pertanyaan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pertanyaan.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(68): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:45:10 --> Call to undefined method App\Models\KuisBelajarModel::getResul
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(67): CodeIgniter\Model->__call('getResul', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:45:23 --> Call to undefined method App\Models\KuisBelajarModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(67): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:45:24 --> Call to undefined method App\Models\KuisBelajarModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(67): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:45:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pertanyaan.php on line 25.
+ 1 APPPATH\Views\user\pertanyaan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pertanyaan.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(68): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:46:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pertanyaan.php on line 25.
+ 1 APPPATH\Views\user\pertanyaan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pertanyaan.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:46:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\pertanyaan.php on line 25.
+ 1 APPPATH\Views\user\pertanyaan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\user\\pertanyaan.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:50:29 --> Undefined array key "jawaban"
+in APPPATH\Views\user\pertanyaan.php on line 30.
+ 1 APPPATH\Views\user\pertanyaan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jawaban"', 'APPPATH\\Views\\user\\pertanyaan.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:53:13 --> Cannot use object of type App\Models\Hasil as array
+in APPPATH\Views\user\pertanyaan.php on line 30.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 4 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:53:14 --> Cannot use object of type App\Models\Hasil as array
+in APPPATH\Views\user\pertanyaan.php on line 30.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 4 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:54:27 --> Cannot use object of type App\Models\Hasil as array
+in APPPATH\Views\user\pertanyaan.php on line 30.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 4 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:54:28 --> Cannot use object of type App\Models\Hasil as array
+in APPPATH\Views\user\pertanyaan.php on line 30.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 4 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 18:54:43 --> Undefined array key "jawaban"
+in APPPATH\Views\user\pertanyaan.php on line 30.
+ 1 APPPATH\Views\user\pertanyaan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jawaban"', 'APPPATH\\Views\\user\\pertanyaan.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 19:03:14 --> Undefined array key "jawaban"
+in APPPATH\Views\user\pertanyaan.php on line 30.
+ 1 APPPATH\Views\user\pertanyaan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jawaban"', 'APPPATH\\Views\\user\\pertanyaan.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 19:03:16 --> Undefined array key "jawaban"
+in APPPATH\Views\user\pertanyaan.php on line 30.
+ 1 APPPATH\Views\user\pertanyaan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jawaban"', 'APPPATH\\Views\\user\\pertanyaan.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 19:03:16 --> Undefined array key "jawaban"
+in APPPATH\Views\user\pertanyaan.php on line 30.
+ 1 APPPATH\Views\user\pertanyaan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jawaban"', 'APPPATH\\Views\\user\\pertanyaan.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 19:03:17 --> Undefined array key "jawaban"
+in APPPATH\Views\user\pertanyaan.php on line 30.
+ 1 APPPATH\Views\user\pertanyaan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jawaban"', 'APPPATH\\Views\\user\\pertanyaan.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(71): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:04:36 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:04:36 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(69): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:04:37 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:04:37 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(69): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:09:12 --> Unknown column 'kbel.id_bekerja' in 'on clause'
+CRITICAL - 2022-07-28 19:09:12 --> Unknown column 'kbel.id_bekerja' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar` `kbel`)
+JOIN `Kuesioner_bekerja` `kbek` ON `kbel`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` `kwir` ON `kbel`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` `kla` ON `kbek`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar` `kbel`)
+JOIN `Kuesioner_bekerja` `kbek` ON `kbel`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` `kwir` ON `kbel`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` `kla` ON `kbek`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar` `kbel`)
+JOIN `Kuesioner_bekerja` `kbek` ON `kbel`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` `kwir` ON `kbel`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` `kla` ON `kbek`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar` `kbel`)
+JOIN `Kuesioner_bekerja` `kbek` ON `kbel`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` `kwir` ON `kbel`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` `kla` ON `kbek`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(69): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:13:24 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:13:24 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(69): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:15:26 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:15:26 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(69): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:15:27 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:15:27 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(69): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:15:28 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:15:28 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+LEFT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(69): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:16:10 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:16:10 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+RIGHT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+RIGHT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+RIGHT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+RIGHT JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(69): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:16:19 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:16:19 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(69): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:16:19 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:16:19 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+LEFT JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(69): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:20:11 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:20:11 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(76): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:20:39 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 19:20:39 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(76): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:21:42 --> Table 'universitas.blogs' doesn't exist
+CRITICAL - 2022-07-28 19:21:42 --> Table 'universitas.blogs' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `blogs`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `blogs`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `blogs`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blogs`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Controllers\User.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:21:59 --> Table 'universitas.user' doesn't exist
+CRITICAL - 2022-07-28 19:21:59 --> Table 'universitas.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Controllers\User.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 19:22:22 --> Unknown column 'Kuesioner_belajar.id_bekerja' in 'on clause'
+CRITICAL - 2022-07-28 19:22:22 --> Unknown column 'Kuesioner_belajar.id_bekerja' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Controllers\User.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 21:50:24 --> Undefined variable $part
+in APPPATH\Controllers\User.php on line 40.
+ 1 APPPATH\Controllers\User.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $part', 'APPPATH\\Controllers\\User.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 22:08:16 --> Invalid file: user/wirausaha.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/wirausaha.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/wirausaha', [], true)
+ 3 APPPATH\Controllers\User.php(61): view('user/wirausaha')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kuisW()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 22:10:17 --> Invalid file: user/bekerja.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/bekerja.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/bekerja', [], true)
+ 3 APPPATH\Controllers\User.php(65): view('user/bekerja')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kuisBek()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 22:35:00 --> Invalid file: user/wirausaha.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/wirausaha.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/wirausaha', [], true)
+ 3 APPPATH\Controllers\User.php(73): view('user/wirausaha')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kuisWir()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 22:35:05 --> Invalid file: user/bekerja.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/bekerja.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/bekerja', [], true)
+ 3 APPPATH\Controllers\User.php(69): view('user/bekerja')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->kuisBek()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 23:31:59 --> Unknown column 'Kuesioner_belajar.id_bekerja' in 'on clause'
+CRITICAL - 2022-07-28 23:31:59 --> Unknown column 'Kuesioner_belajar.id_bekerja' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_users`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Controllers\User.php(106): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 23:32:49 --> Not unique table/alias: 'Kuesioner_belajar'
+CRITICAL - 2022-07-28 23:32:49 --> Not unique table/alias: 'Kuesioner_belajar'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`Kuesioner_belajar`, `Kuesioner_belajar`)
+JOIN `Kuesioner_bekerja` ON `Kuesioner_belajar`.`id_bekerja` = `Kuesioner_bekerja`.`id_bekerja`
+JOIN `Kuesioner_wirausaha` ON `Kuesioner_belajar`.`id_wirausaha` = `Kuesioner_wirausaha`.`id_wirausaha`
+JOIN `Kuesioner_lainnya` ON `Kuesioner_bekerja`.`id_bekerja` = `Kuesioner_lainnya`.`id_bekerja`', [], false)
+ 5 APPPATH\Models\KuisBelajarModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\User.php(99): App\Models\KuisBelajarModel->getSimpanan1()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 23:33:49 --> Call to undefined method App\Models\KuisBelajarModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(99): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 23:33:51 --> Call to undefined method App\Models\KuisBelajarModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(99): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 23:33:55 --> Undefined variable $kk
+in APPPATH\Views\user\pertanyaan.php on line 24.
+ 1 APPPATH\Views\user\pertanyaan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kk', 'APPPATH\\Views\\user\\pertanyaan.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(102): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 23:34:36 --> Undefined variable $kk
+in APPPATH\Controllers\User.php on line 99.
+ 1 APPPATH\Controllers\User.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kk', 'APPPATH\\Controllers\\User.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 23:34:51 --> Undefined variable $kk
+in APPPATH\Views\user\pertanyaan.php on line 24.
+ 1 APPPATH\Views\user\pertanyaan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kk', 'APPPATH\\Views\\user\\pertanyaan.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(102): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 23:35:04 --> Undefined variable $kk
+in APPPATH\Views\user\pertanyaan.php on line 24.
+ 1 APPPATH\Views\user\pertanyaan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kk', 'APPPATH\\Views\\user\\pertanyaan.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\pertanyaan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 5 APPPATH\Controllers\User.php(102): view('user/pertanyaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 23:35:12 --> Cannot use object of type mysqli as array
+in APPPATH\Views\user\pertanyaan.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/pertanyaan', [], true)
+ 4 APPPATH\Controllers\User.php(102): view('user/pertanyaan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 23:35:28 --> Call to undefined method App\Models\KuisBelajarModel::getAll
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(99): CodeIgniter\Model->__call('getAll', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 23:35:37 --> Call to undefined method App\Models\KuisBelajarModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(99): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-28 23:53:38 --> Column 'jawaban' cannot be null
+CRITICAL - 2022-07-28 23:53:38 --> Column 'jawaban' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `hasil` (`jawaban`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hasil` (`jawaban`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hasil` (`jawaban`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hasil` (`jawaban`) VALUES (:jawaban:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\User.php(98): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->jawab()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
