@@ -1,63 +1,58 @@
-# CodeIgniter 4 Application Starter
+# Pemula Aplikasi CodeIgniter 4
 
-## What is CodeIgniter?
+ 3
+ ## Apa itu CodeIgniter?
+ 4
+ kami
+ 5
+ CodeIgniter adalah framework web full-stack PHP yang ringan, cepat, fleksibel dan aman.
+ 6
+ Informasi lebih lanjut dapat ditemukan di [situs resmi] (http://codeigniter.com).
+ 7
+ kami
+ 8
+ Repositori ini menyimpan starter aplikasi yang dapat diinstal komposer.
+ 9
+ Itu telah dibangun dari
+[repositori pengembangan](https://github.com/codeigniter4/CodeIgniter4).
+ kami
+ Informasi lebih lanjut tentang rencana untuk versi 4 dapat ditemukan di [pengumuman](http://forum.codeigniter.com/thread-62615.html) di forum.
+ kami
+ Panduan pengguna yang sesuai dengan versi kerangka kerja ini dapat ditemukan
+[di sini](https://codeigniter4.github.io/userguide/).
+ kami
+ ## Instalasi & pembaruan
+ kami
+`composer create-project codeigniter4/appstarter` lalu `composer update` kapanpun
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+ ada rilis baru dari kerangka kerja.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+ kami
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+ Saat memperbarui, periksa catatan rilis untuk melihat apakah ada perubahan yang mungkin perlu Anda terapkan
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+ ke folder `aplikasi` Anda. File yang terpengaruh dapat disalin atau digabungkan dari
+  `vendor/codeigniter4/framework/app`.
+  kami
+  ## Mempersiapkan
+  kami
+  Salin `env` ke `.env` dan sesuaikan untuk aplikasi Anda, khususnya baseURL
+  dan pengaturan basis data apa pun.
+  kami
+  ## Perubahan Penting dengan index.php
+  kami
+  `index.php` tidak lagi berada di root proyek! Itu telah dipindahkan ke dalam folder *publik*,
+  untuk keamanan yang lebih baik dan pemisahan komponen.
+  kami
+  Ini berarti Anda harus mengonfigurasi server web Anda untuk "menunjuk" ke folder *publik* proyek Anda, dan
+  bukan ke root proyek. Praktik yang lebih baik adalah mengonfigurasi host virtual untuk menunjuk ke sana. Praktik yang buruk adalah mengarahkan server web Anda ke root proyek dan berharap untuk memasukkan *public/...*, sebagai sisa logika Anda dan
+  kerangka terpapar.
+  kami
+  **Silakan** baca panduan pengguna untuk penjelasan yang lebih baik tentang cara kerja CI4!
+  kami
+  ## Manajemen Repositori
+  kami
+ 
+ Kami menggunakan masalah GitHub, di repositori utama kami, untuk melacak **BUGS** dan untuk melacak paket kerja **DEVELOPMENT** yang disetujui.
+ 
+ Kami menggunakan [forum](http://forum.codeigniter.com) kami untuk memberikan DUKUNGAN dan berdiskusi
