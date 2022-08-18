@@ -1,19 +1,68 @@
-*/config/development
-*/logs/log-*.php
-!*/logs/index.html
-*/cache/*
-!*/cache/index.html
-!*/cache/.htaccess
+# Pemula Aplikasi CodeIgniter 4
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+ 3
+ ## Apa itu CodeIgniter?
+ 4
+ kami
+ 5
+ CodeIgniter adalah framework web full-stack PHP yang ringan, cepat, fleksibel dan aman.
+ 6
+ Informasi lebih lanjut dapat ditemukan di [situs resmi] (http://codeigniter.com).
+ 7
+ kami
+ 8
+ Repositori ini menyimpan starter aplikasi yang dapat diinstal komposer.
+ 9
+ Itu telah dibangun dari
+ 10
+ [repositori pengembangan](https://github.com/codeigniter4/CodeIgniter4).
+ 11
+ kami
+ 12
+ Informasi lebih lanjut tentang rencana untuk versi 4 dapat ditemukan di [pengumuman](http://forum.codeigniter.com/thread-62615.html) di forum.
+ 13
+ kami
+ 14
+ Panduan pengguna yang sesuai dengan versi kerangka kerja ini dapat ditemukan
+ 15
+ [di sini](https://codeigniter4.github.io/userguide/).
+ 16
+ kami
+ 17
+ ## Instalasi & pembaruan
+ 18
+ kami
+ 19
+ `composer create-project codeigniter4/appstarter` lalu `composer update` kapanpun
 
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
-/vendor/
-  git config --global user.email "samuelchristoper555@gmail.com"
-  git config --global user.name "Samuel-08"
+ ada rilis baru dari kerangka kerja.
+
+ kami
+
+ Saat memperbarui, periksa catatan rilis untuk melihat apakah ada perubahan yang mungkin perlu Anda terapkan
+
+ ke folder `aplikasi` Anda. File yang terpengaruh dapat disalin atau digabungkan dari
+  `vendor/codeigniter4/framework/app`.
+  kami
+  ## Mempersiapkan
+  kami
+  Salin `env` ke `.env` dan sesuaikan untuk aplikasi Anda, khususnya baseURL
+  dan pengaturan basis data apa pun.
+  kami
+  ## Perubahan Penting dengan index.php
+  kami
+  `index.php` tidak lagi berada di root proyek! Itu telah dipindahkan ke dalam folder *publik*,
+  untuk keamanan yang lebih baik dan pemisahan komponen.
+  kami
+  Ini berarti Anda harus mengonfigurasi server web Anda untuk "menunjuk" ke folder *publik* proyek Anda, dan
+  bukan ke root proyek. Praktik yang lebih baik adalah mengonfigurasi host virtual untuk menunjuk ke sana. Praktik yang buruk adalah mengarahkan server web Anda ke root proyek dan berharap untuk memasukkan *public/...*, sebagai sisa logika Anda dan
+  kerangka terpapar.
+  kami
+  **Silakan** baca panduan pengguna untuk penjelasan yang lebih baik tentang cara kerja CI4!
+  kami
+  ## Manajemen Repositori
+  kami
+ 
+ Kami menggunakan masalah GitHub, di repositori utama kami, untuk melacak **BUGS** dan untuk melacak paket kerja **DEVELOPMENT** yang disetujui.
+ 
+ Kami menggunakan [forum](http://forum.codeigniter.com) kami untuk memberikan DUKUNGAN dan berdiskusi
