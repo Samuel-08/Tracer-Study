@@ -5,9 +5,6 @@
  CodeIgniter adalah framework web full-stack PHP yang ringan, cepat, fleksibel dan aman.
 
  Informasi lebih lanjut dapat ditemukan di [situs resmi] (http://codeigniter.com).
- 
- kami
- 
  Repositori ini menyimpan starter aplikasi yang dapat diinstal komposer.
  
  Itu telah dibangun dari
@@ -24,20 +21,18 @@
 
  ada rilis baru dari kerangka kerja.
 
- kami
-
  Saat memperbarui, periksa catatan rilis untuk melihat apakah ada perubahan yang mungkin perlu Anda terapkan
 
  ke folder `aplikasi` Anda. File yang terpengaruh dapat disalin atau digabungkan dari
   `vendor/codeigniter4/framework/app`.
-  kami
+ 
   ## Mempersiapkan
-  kami
+ 
   Salin `env` ke `.env` dan sesuaikan untuk aplikasi Anda, khususnya baseURL
   dan pengaturan basis data apa pun.
-  kami
+ 
   ## Perubahan Penting dengan index.php
-  kami
+ 
   `index.php` tidak lagi berada di root proyek! Itu telah dipindahkan ke dalam folder *publik*,
   untuk keamanan yang lebih baik dan pemisahan komponen.
   kami
