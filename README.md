@@ -8,15 +8,11 @@
  Repositori ini menyimpan starter aplikasi yang dapat diinstal komposer.
  
  Itu telah dibangun dari
-[repositori pengembangan](https://github.com/codeigniter4/CodeIgniter4).
- kami
- Informasi lebih lanjut tentang rencana untuk versi 4 dapat ditemukan di [pengumuman](http://forum.codeigniter.com/thread-62615.html) di forum.
- kami
+[repositori pengembangan](https://github.com/codeigniter4/CodeIgniter4). 
+ Informasi lebih lanjut tentang rencana untuk versi 4 dapat ditemukan di [pengumuman](http://forum.codeigniter.com/thread-62615.html) di forum kami
  Panduan pengguna yang sesuai dengan versi kerangka kerja ini dapat ditemukan
 [di sini](https://codeigniter4.github.io/userguide/).
- kami
- ## Instalasi & pembaruan
- kami
+ ## Instalasi & pembaruan kami
 `composer create-project codeigniter4/appstarter` lalu `composer update` kapanpun
 
  ada rilis baru dari kerangka kerja.
@@ -35,15 +31,15 @@
  
   `index.php` tidak lagi berada di root proyek! Itu telah dipindahkan ke dalam folder *publik*,
   untuk keamanan yang lebih baik dan pemisahan komponen.
-  kami
+
   Ini berarti Anda harus mengonfigurasi server web Anda untuk "menunjuk" ke folder *publik* proyek Anda, dan
   bukan ke root proyek. Praktik yang lebih baik adalah mengonfigurasi host virtual untuk menunjuk ke sana. Praktik yang buruk adalah mengarahkan server web Anda ke root proyek dan berharap untuk memasukkan *public/...*, sebagai sisa logika Anda dan
   kerangka terpapar.
   kami
   **Silakan** baca panduan pengguna untuk penjelasan yang lebih baik tentang cara kerja CI4!
-  kami
+ 
   ## Manajemen Repositori
  
  Kami menggunakan masalah GitHub, di repositori utama kami, untuk melacak **BUGS** dan untuk melacak paket kerja **DEVELOPMENT** yang disetujui.
  
- Kami menggunakan [forum](http://forum.codeigniter.com) kami untuk memberikan DUKUNGAN dan berdiskusi
+ Kami menggunakan [forum](http://forum.codeigniter.com)  untuk memberikan DUKUNGAN dan berdiskusi
