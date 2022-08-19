@@ -43,7 +43,6 @@
   **Silakan** baca panduan pengguna untuk penjelasan yang lebih baik tentang cara kerja CI4!
   kami
   ## Manajemen Repositori
-  kami
  
  Kami menggunakan masalah GitHub, di repositori utama kami, untuk melacak **BUGS** dan untuk melacak paket kerja **DEVELOPMENT** yang disetujui.
  
