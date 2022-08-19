@@ -1,9 +1,7 @@
 # Pemula Aplikasi CodeIgniter 4
 
  ## Apa itu CodeIgniter?
- 4
- kami
-
+  
  CodeIgniter adalah framework web full-stack PHP yang ringan, cepat, fleksibel dan aman.
 
  Informasi lebih lanjut dapat ditemukan di [situs resmi] (http://codeigniter.com).
